@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kxmlgui\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-11-27 00:38+0000\n"
-"PO-Revision-Date: 2023-09-25 13:46+0530\n"
+"POT-Creation-Date: 2024-12-07 00:38+0000\n"
+"PO-Revision-Date: 2024-12-15 22:06+0530\n"
 "Last-Translator: Shreekant Kalwar\n"
 "Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
 "Language: sa\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>2);\n"
-"X-Generator: Poedit 3.3.2\n"
+"X-Generator: Poedit 3.5\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 #: kaboutapplicationdialog.cpp:60 kaboutplugindialog.cpp:65
@@ -112,15 +112,7 @@ msgstr ""
 "तीव्रताम् उपयुञ्जते इति सुनिश्चितं कुर्वन्तु ।</html>"
 
 #: kaboutkdedialog_p.cpp:85
-#, fuzzy, kde-format
-#| msgid ""
-#| "<html>You do not have to be a software developer to be a member of the "
-#| "KDE team. You can join the national teams that translate program "
-#| "interfaces. You can provide graphics, themes, sounds, and improved "
-#| "documentation. You decide!<br /><br />Visit <a href=\"%1\">%1</a> for "
-#| "information on some projects in which you can participate.<br /><br />If "
-#| "you need more information or documentation, then a visit to <a href="
-#| "\"%2\">%2</a> will provide you with what you need.</html>"
+#, kde-format
 msgid ""
 "<html>You do not have to be a software developer to be a member of the KDE "
 "team. You can join the language teams that translate program interfaces. You "
@@ -130,12 +122,12 @@ msgid ""
 "documentation, then a visit to <a href=\"%2\">%2</a> will provide you with "
 "what you need.</html>"
 msgstr ""
-"<html>KDE दलस्य सदस्यः भवितुम् भवता तन्त्रांशविकासकः भवितुम् आवश्यकं नास्ति । कार्यक्रमस्य "
-"अन्तरफलकानां अनुवादं कुर्वतां राष्ट्रियदलेषु भवान् सम्मिलितुं शक्नोति । चित्राणि, विषयवस्तु, "
-"ध्वनयः, उन्नतदस्तावेजं च दातुं शक्नुवन्ति । भवन्तः निर्णयं कुर्वन्तु!<br /><br />केषाञ्चन "
-"परियोजनानां सूचनायै <a href=\"%1\">%1</a> इति सञ्चिकां पश्यन्तु येषु भवान् भागं ग्रहीतुं "
-"शक्नोति।<br /><br />यदि भवतः अधिकसूचना अथवा दस्तावेजस्य आवश्यकता अस्ति तर्हि <a href="
-"\"%2\">%2</a> इत्यत्र भ्रमणेन भवतः आवश्यकं वस्तु प्रदास्यति ।</html>"
+"<html>KDE दलस्य सदस्यः भवितुम् भवता सॉफ्टवेयरविकासकः भवितुम् आवश्यकं नास्ति । प्रोग्राम्-"
+"अन्तरफलकानाम् अनुवादं कुर्वन्ति भाषादलेषु भवान् सम्मिलितुं शक्नोति । चित्राणि, विषयवस्तु, "
+"ध्वनयः, उन्नतदस्तावेजं च दातुं शक्नुवन्ति । भवान् निर्णयं करोति!<br /><br />केषुचित् "
+"परियोजनासु भवान् भागं ग्रहीतुं शक्नोति इति सूचनायै <a href=\"%1\">%1</a> इति सञ्चिकां "
+"पश्यन्तु।<br /><br />यदि भवतः अधिकस्य आवश्यकता अस्ति सूचनां वा दस्तावेजीकरणं वा, ततः <a "
+"href=\"%2\">%2</a> इत्यत्र गमनेन भवतः यत् आवश्यकं तत् प्रदास्यति ।</html>"
 
 #: kaboutkdedialog_p.cpp:108
 #, kde-format
@@ -199,11 +191,7 @@ msgid "License: %1"
 msgstr "अनुज्ञापत्रम् : %1"
 
 #: kabstractaboutdialog_p.cpp:117
-#, fuzzy, kde-format
-#| msgctxt ""
-#| "%1 is the operating system name, e.g. 'Windows 10', %2 is the CPU "
-#| "architecture, e.g. 'x86_64'"
-#| msgid "%1 (%2)"
+#, kde-format
 msgctxt "@info Platform name"
 msgid "%1 (%2)"
 msgstr "%1 (%2)"
@@ -217,7 +205,7 @@ msgstr "KDE Frameworks"
 #, kde-format
 msgctxt "@info"
 msgid "Collection of libraries created by the KDE Community to extend Qt."
-msgstr ""
+msgstr "Qt विस्तारयितुं KDE समुदायेन निर्मितानाम् पुस्तकालयानाम् संग्रहः ।"
 
 #: kabstractaboutdialog_p.cpp:127
 #, kde-format
@@ -228,23 +216,21 @@ msgstr "Qt"
 #, kde-format
 msgctxt "@info"
 msgid "Cross-platform application development framework."
-msgstr ""
+msgstr "पार-मञ्च-अनुप्रयोग-विकास-रूपरेखा।"
 
 #: kabstractaboutdialog_p.cpp:129
-#, fuzzy, kde-format
-#| msgid "%1 (built against %2)"
+#, kde-format
 msgid "Using %1 and built against %2"
-msgstr "%1 (%2 विरुद्धं निर्मितम्)"
+msgstr "%1 इत्यस्य उपयोगेन %2 इत्यस्य विरुद्धं च निर्मितम्"
 
 #: kabstractaboutdialog_p.cpp:132
 #, kde-format
 msgctxt "@info"
 msgid "Underlying platform."
-msgstr ""
+msgstr "अन्तर्निहित मञ्च।"
 
 #: kabstractaboutdialog_p.cpp:156
-#, fuzzy, kde-format
-#| msgid "Visit component's homepage"
+#, kde-format
 msgctxt "@action:button"
 msgid "Visit component's homepage"
 msgstr "घटकस्य मुखपृष्ठं गच्छन्तु"
@@ -263,48 +249,35 @@ msgstr ""
 #, kde-format
 msgctxt "@action:button"
 msgid "Copy to Clipboard"
-msgstr ""
+msgstr "क्लिप्बोर्ड् प्रति प्रतिलिख्यताम्"
 
 #: kabstractaboutdialog_p.cpp:246
-#, fuzzy, kde-format
-#| msgid "Visit contributor's homepage"
+#, kde-format
 msgctxt "@action:button"
 msgid "Visit author's homepage"
-msgstr "योगदानकर्ता मुखपृष्ठं पश्यन्तु"
+msgstr "लेखकस्य मुखपृष्ठं गच्छन्तु"
 
 #: kabstractaboutdialog_p.cpp:247
-#, fuzzy, kde-format
-#| msgctxt "@info:tooltip"
-#| msgid ""
-#| "Visit contributor's homepage\n"
-#| "%1"
+#, kde-format
 msgctxt "@info:tooltip"
 msgid ""
 "Visit author's homepage\n"
 "%1"
 msgstr ""
-"योगदानकर्ता मुखपृष्ठं पश्यन्तु\n"
+"लेखकस्य मुखपृष्ठं पश्यन्तु\n"
 "%1"
 
 #: kabstractaboutdialog_p.cpp:269
-#, fuzzy, kde-format
-#| msgctxt "Action to send an email to a contributor"
-#| msgid "Email contributor"
+#, kde-format
 msgctxt "@action:button Send an email to a contributor"
 msgid "Email contributor"
 msgstr "Email योगदानकर्ता"
 
 #: kabstractaboutdialog_p.cpp:270
-#, fuzzy, kde-format
-#| msgctxt "@info:tooltip Action to send an email to a contributor"
-#| msgid ""
-#| "Email contributor\n"
-#| "%1"
+#, kde-format
 msgctxt "@info:tooltip"
 msgid "Email contributor: %1"
-msgstr ""
-"Email योगदानकर्ता\n"
-"%1"
+msgstr "Email योगदानकर्ता %1"
 
 #: kabstractaboutdialog_p.cpp:321
 #, kde-format
@@ -380,11 +353,10 @@ msgid "no version set (programmer error)"
 msgstr "कोऽपि संस्करणः निरूपयत् नास्ति (विधिकारदोषः)"
 
 #: kbugreport.cpp:117
-#, fuzzy, kde-format
-#| msgid "KDE Frameworks"
+#, kde-format
 msgctxt "%1 is the program version, %2 is the kde framework version"
 msgid "%1 with KDE Frameworks %2"
-msgstr "KDE Frameworks"
+msgstr "%1 KDE Frameworks %2 इत्यनेन सह"
 
 #: kbugreport.cpp:125
 #, kde-format
@@ -785,12 +757,10 @@ msgid "Add to Toolbar"
 msgstr "साधनशलाका मध्ये योजयतु"
 
 #: kmenumenuhandler_p.cpp:224
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Configure Shortcut..."
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Configure Shortcut…"
-msgstr "संक्षिप्तमार्गः विन्यस्तं कुर्वन्तु..."
+msgstr "संक्षिप्तमार्गः विन्यस्तं कुर्वन्तु…"
 
 #: kshortcuteditwidget.cpp:55
 #, kde-format
@@ -840,20 +810,16 @@ msgid "Save shortcuts to scheme"
 msgstr "योजनायां संक्षिप्तमार्गाः रक्षन्तु"
 
 #: kshortcutschemeseditor.cpp:62
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Export Scheme..."
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Export Scheme…"
-msgstr "निर्यात योजना..."
+msgstr "निर्यात योजना…"
 
 #: kshortcutschemeseditor.cpp:66
-#, fuzzy, kde-format
-#| msgctxt "@action:inmenu"
-#| msgid "Import Scheme..."
+#, kde-format
 msgctxt "@action:inmenu"
 msgid "Import Scheme…"
-msgstr "आयात योजना..."
+msgstr "आयात योजना…"
 
 #: kshortcutschemeseditor.cpp:115
 #, kde-format
@@ -1291,7 +1257,7 @@ msgstr "न पाठ्य"
 msgid "Find Action…"
 msgstr "कर्म अन्वेष्टुम्…"
 
-#: kxmlguiwindow.cpp:529
+#: kxmlguiwindow.cpp:561
 #, kde-format
 msgid ""
 "There are two actions (%1, %2) that want to use the same shortcut (%3). This "
@@ -1302,7 +1268,7 @@ msgstr ""
 "अधिकतया दोषः अस्ति । कृपया <a href='https://bugs.kde.org'>bugs.kde.org</a> "
 "इत्यत्र निवेदयन्तु"
 
-#: kxmlguiwindow.cpp:534
+#: kxmlguiwindow.cpp:566
 #, kde-format
 msgid "Ambiguous Shortcuts"
 msgstr "अस्पष्ट संक्षिप्तमार्गाः"
@@ -1367,40 +1333,3 @@ msgstr "&समायोजना"
 #, kde-format
 msgid "Main Toolbar"
 msgstr "मुख्य साधनशलाका"
-
-#, fuzzy
-#~| msgid "The <em>%1</em> windowing system"
-#~ msgid "Windowing system"
-#~ msgstr "<em>%1</em> विण्डोइङ्ग् प्रणाली"
-
-#~ msgctxt "@item Component name in about dialog."
-#~ msgid "%1"
-#~ msgstr "%1"
-
-#~ msgid "Version %1"
-#~ msgstr "संस्करणम् %1"
-
-#~ msgctxt "@item Contributor name in about dialog."
-#~ msgid "%1"
-#~ msgstr "%1"
-
-#~ msgid "Show author photos"
-#~ msgstr "लेखकस्य छायाचित्रं दर्शयतु"
-
-#~ msgid "Enabling this will fetch images from an online location"
-#~ msgstr "एतत् सक्षमीकरणेन ऑनलाइनस्थानात् चित्राणि आनयिष्यन्ति"
-
-#~ msgid "About %1"
-#~ msgstr "%1 इत्यस्य विषये"
-
-#~ msgctxt "@action:button"
-#~ msgid "Change &Icon..."
-#~ msgstr "&चिह्नं परिवर्तयतु..."
-
-#~ msgctxt "@action:button"
-#~ msgid "Change Te&xt..."
-#~ msgstr "&पाठ्यम् परिवर्तयन्तु..."
-
-#~ msgctxt "@action:button"
-#~ msgid "New..."
-#~ msgstr "नूतनम्‌..."
